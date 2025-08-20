@@ -22,11 +22,11 @@
     line-height: 24px;
     text-decoration: none;
     color: var(--cor-links);
-    font-family: var(--font-texto);
+    font-family: var(--fonte-texto)
 }
 
 .cabecalho__nav_list_item-input {
-    position: relative;  
+    position: relative;
 }
 
 .cabecalho__nav_list_input {
@@ -39,7 +39,7 @@
     border: none;
     font-size: 20px;
     line-height: 24px;
-    font-family: var(--font-texto);
+    font-family: var(--fonte-texto);
     color: var(--cor-links);
 }
 
@@ -53,9 +53,9 @@
     pointer-events: none;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .cabecalho__nav_list {
-        grid-template-areas:
+        grid-template-areas: 
         "logo sobre login perfil carrinho"
         "input input input input input";
         grid-template-columns: 1fr 2fr .5fr .5fr .5fr;
@@ -83,6 +83,6 @@
     }
 
     .cabecalho__nav_list_item-input {
-        grid-area: input;    
+        grid-area: input;
     }
 }
