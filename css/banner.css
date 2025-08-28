@@ -10,7 +10,7 @@
     gap: 56px;
 }
 
-.banner__titulo {
+.banner__container-titulo {
     font-family: var(--fonte-titulo);
     color: var(--cor-destaque-principal);
     font-weight: 800;
@@ -20,11 +20,11 @@
     padding-bottom: 48px;
 }
 
-.banner__titulo span {
+.banner__container-titulo span {
     color: var(--cor-destaque-secundario);
 }
 
-.banner__botao {
+.banner__container-botao {
     padding: 16px 24px;
     color: var(--cor-de-fundo);
     font-weight: 600;
@@ -47,7 +47,7 @@
         padding: 80px 38px;
     }
 
-    .banner__titulo {
+    .banner__container-titulo {
         font-size: 61px;
         line-height: 73.2px;
     }
