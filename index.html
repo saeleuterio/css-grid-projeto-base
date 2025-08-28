@@ -1,61 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UseDev</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
-<link rel="stylesheet" href="./css/cabecalho.css">
-<link rel="stylesheet" href="./css/banner.css">
-<link rel="stylesheet" href="./css/categorias.css">
-<link rel="stylesheet" href="./css/promocoes.css">
-<link rel="stylesheet" href="./css/newsletter.css">
-<link rel="stylesheet" href="./css/rodape.css">
-</head>
-<body>
 
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UseDev</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./css/cabecalho.css" />
+    <link rel="stylesheet" href="./css/banner.css" />
+    <link rel="stylesheet" href="./css/categorias.css" />
+    <link rel="stylesheet" href="./css/promocoes.css" />
+    <link rel="stylesheet" href="./css/newsletter.css" />
+    <link rel="stylesheet" href="./css/rodape.css" />
+</head>
+
+<body>
     <header class="cabecalho">
         <nav class="cabecalho__nav">
             <ul class="cabecalho__nav_list">
                 <li>
                     <h1 class="cabecalho__logo">
-                    <img src="./assets/icons/logo.svg" alt="logo da use dev">
+                        <img src="./assets/icons/logo.svg" alt="logo da use dev" />
                     </h1>
                 </li>
                 <li class="cabecalho__nav_list_item">
-                    <a href="#" class="cabecalho__nav_list_link">
-                        Sobre nós
-                    </a>
+                    <a href="#" class="cabecalho__nav_list_link"> Sobre nós </a>
                 </li>
                 <li class="cabecalho__nav_list_item cabecalho__nav_list_item-input">
-                    <input type="search" id="search" placeholder="O que você procura?" class="cabecalho__nav_list_input">
-                    <img src="./assets/icons/search.svg" alt="lupa" class="pesquisa-icon">
+                    <input type="search" id="search" placeholder="O que você procura?"
+                        class="cabecalho__nav_list_input" />
+                    <img src="./assets/icons/search.svg" alt="lupa" class="pesquisa-icon" />
                 </li>
                 <li class="cabecalho__nav_list_item">
                     <a href="#" class="cabecalho__nav_list_link cabecalho__nav_list_link-login">Login</a>
                 </li>
                 <li class="cabecalho__nav_list_item">
                     <a href="#" class="cabecalho__nav_list_link cabecalho__nav_list_link-perfil">
-                        <img src="./assets/icons/perfil.svg" alt="perfil">
+                        <img src="./assets/icons/perfil.svg" alt="perfil" />
                     </a>
                 </li>
                 <li class="cabecalho__nav_list_item">
                     <a href="#" class="cabecalho__nav_list_link cabecalho__nav_list_link-carrinho">
-                        <img src="./assets/icons/carrinho.svg" alt="carrinho">
+                        <img src="./assets/icons/carrinho.svg" alt="carrinho" />
                     </a>
                 </li>
             </ul>
         </nav>
     </header>
     <section class="banner">
-        <img class="banne__imagem" src="./assets/banner.png" alt="Uma pessoa vestindo uma camiseta com o logo da UseDev"/>
+        <img class="banne__imagem" src="./assets/banner.png"
+            alt="Uma pessoa vestindo uma camiseta com o logo da UseDev" />
         <div class="banner__container">
-            <h2 class="banner__titulo">Hora de abraçar <span>o seu lado geek!</span></h2>
+            <h2 class="banner__titulo">
+                Hora de abraçar <span>o seu lado geek!</span>
+            </h2>
             <button class="banner__botao">Ver as novidades</button>
         </div>
     </section>
+
+    <section class="categorias">
+        <h3 class="categorias__titulo">Categorias</h3>
+        <p>
+            De roupas a gadgets tecnológicos, temos tudo para atender suas paixões e
+            hobbies com estilo e autenticidade.
+        </p>
+        <ul class="categorias__list">
+            <li class="categorias__list_item categorias__list_item-roupas">
+                <div class="categorias__list_item_container">
+                    <img src="./assets/roupas.png" alt="Roupas" />
+                </div>
+                <h4 class="categorias__list_item_titulo">Roupas</h4>
+            </li>
+            <section class="categorias">
+                <h3 class="categorias__titulo">Categorias</h3>
+                <p class="categorias__texto">De roupas a gadgets tecnológicos temos tudo para atender suas paixões e
+                    hobbies com estilo e autenticidade.</p>
+                <ul class="categorias__list">
+                    <li class="categorias__list_item categorias__list_item-roupas">
+                        <div class="categorias__list_item_container">
+                            <img src="./assets/roupas.png" alt="Roupas" />
+                        </div>
+                        <h4 class="categorias__list_item_titulo">Roupas</h4>
+                    </li>
+                    <li class="categorias__list_item categorias__list_item-decoracao">
+                        <div class="categorias__list_item_container">
+                            <img src="./assets/decoracao.png" alt="Decoração" />
+                        </div>
+                        <h4 class="categorias__list_item_titulo">Decoração</h4>
+                    </li>
+                    <li class="categorias__list_item categorias__list_item-canecas">
+                        <div class="categorias__list_item_container">
+                            <img src="./assets/canecas.png" alt="Canecas" />
+                        </div>
+                        <h4 class="categorias__list_item_titulo">Canecas</h4>
+                    </li>
+                    <li class="categorias__list_item categorias__list_item-acessorios">
+                        <div class="categorias__list_item_container">
+                            <img src="./assets/acessorios.png" alt="Acessorios" />
+                        </div>
+                        <h4 class="categorias__list_item_titulo">Acessorios</h4>
+                    </li>
+                </ul>
+            </section>
+        </ul>
+    </section>
 </body>
+
 </html>
